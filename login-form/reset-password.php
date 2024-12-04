@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>LOGIN</title>
+    <title>RESET PASSWORD</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<form action="login.php" method="post">
-    <h2>LOGIN</h2>
+<form action="db_change_pwd.php" method="post">
+    <h2>RESET YOUR PASSWORD</h2>
     <?php if (isset($_GET['error'])) { ?>
         <p class="error"><?php echo $_GET['error']; ?></p>
     <?php } ?>
-    <label>User Name</label>
-    <input type="text" name="uname" placeholder="User Name"><br>
     <label>Password</label>
     <input type="password" name="password" placeholder="Password"><br>
-    <label>Forgot Password? <a href="./forgot-password.php">Reset</a></label>
-    <button type="submit">Login</button>
+    <label>Confirm Password</label>
+    <input type="password" name="password" placeholder="Confirm Password"><br>
+    <button type="submit">Submit</button>
 </form>
 </body>
 </html>

@@ -69,15 +69,19 @@ h1 {
 }
 
 a {
-    float: right;
-    background: rgb(183, 225, 233);
-    padding: 10px 15px;
-    color: #fff;
-    border-radius: 10px;
-    margin-right: 10px;
-    border: none;
     text-decoration: none;
+    color: #fff;
 }
+/*a {*/
+/*    float: right;*/
+/*    background: rgb(183, 225, 233);*/
+/*    padding: 10px 15px;*/
+/*    color: #fff;*/
+/*    border-radius: 10px;*/
+/*    margin-right: 10px;*/
+/*    border: none;*/
+/*    text-decoration: none;*/
+/*}*/
 
 a:hover{
     opacity: .7;
