@@ -16,3 +16,18 @@ FAQs
 
    *There is a certain difference between $_REQUEST and $_POST.
    $_REQUEST is a PHP superglobal that retrieves data from both the URL and HTTP POST methods, while $_POST retrieves data from the HTTP POST method only.*
+
+#### LOGIN PAGE
+![App](public/images/login.png)
+
+#### REGISTRATION PAGE
+![App](public/images/registration.png)
+
+#### ADMIN PAGE
+![App](public/images/admin.png)
+
+#### RESET PASSWORD EMAIL PAGE
+![App](public/images/enter_email.png)
+
+#### CONFIRM PASSWORD PAGE
+![App](public/images/enter_email.png)
