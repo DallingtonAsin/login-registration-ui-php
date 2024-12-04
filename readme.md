@@ -30,4 +30,4 @@ FAQs
 ![App](public/images/enter_email.png)
 
 #### CONFIRM PASSWORD PAGE
-![App](public/images/enter_email.png)
+![App](public/images/confirm_password.png)
